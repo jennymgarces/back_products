@@ -1,0 +1,6 @@
+@srv_products_HostAddress = http://localhost:5136
+
+GET {{srv_products_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
